@@ -1,0 +1,5 @@
+{
+    "thunder-client.saveToWorkspace": true,
+    "thunder-client.customLocation": "$HOME/Desktop/API_Thunder",
+    "thunder-client.workspaceRelativePath": "$HOME/Desktop/API_Thunder"
+}

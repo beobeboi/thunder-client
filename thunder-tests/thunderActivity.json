@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "a78edc77-9e7a-4f87-8b7a-cc100cfd03d9",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/tests-result/public?access_number=2230010094&first_name=KHANH",
+    "url": "{{url}}/tests-result/public?access_number=2230010094&first_name=KHANH",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-03T04:48:08.130Z",
+    "modified": "2022-08-03T04:49:21.775Z",
+    "headers": [
+      {
+        "name": "api-version",
+        "value": "v2"
+      }
+    ],
+    "params": [
+      {
+        "name": "access_number",
+        "value": "2230010094",
+        "isPath": false
+      },
+      {
+        "name": "first_name",
+        "value": "KHANH",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "1d200804-ed26-4e22-86f2-59e783e2c5ee",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}api/v1/integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "url": "{{url}}api/v1/integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-08T04:37:51.553Z",
+    "modified": "2022-08-08T04:37:51.595Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "order_by",
+        "value": "updated_at",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "DESC",
+        "isPath": false
+      },
+      {
+        "name": "date_of_birth",
+        "value": "2022-02-15",
+        "isPath": false
+      },
+      {
+        "name": "full_name",
+        "value": "GIANG TEST",
+        "isPath": false
+      },
+      {
+        "name": "phone_number",
+        "value": "0349462426",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "23d05fda-f7c3-4278-b6cd-e9a8de2db865",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "url": "{{url}}integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-08T04:38:02.148Z",
+    "modified": "2022-08-08T04:38:02.157Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "order_by",
+        "value": "updated_at",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "DESC",
+        "isPath": false
+      },
+      {
+        "name": "date_of_birth",
+        "value": "2022-02-15",
+        "isPath": false
+      },
+      {
+        "name": "full_name",
+        "value": "GIANG TEST",
+        "isPath": false
+      },
+      {
+        "name": "phone_number",
+        "value": "0349462426",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f2d085a0-4672-44e3-95b0-ac742e9535fe",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "url": "{{url}}/integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-08T04:38:14.080Z",
+    "modified": "2022-08-08T04:45:03.941Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "order_by",
+        "value": "updated_at",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "DESC",
+        "isPath": false
+      },
+      {
+        "name": "date_of_birth",
+        "value": "2022-02-15",
+        "isPath": false
+      },
+      {
+        "name": "full_name",
+        "value": "GIANG TEST",
+        "isPath": false
+      },
+      {
+        "name": "phone_number",
+        "value": "0349462426",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

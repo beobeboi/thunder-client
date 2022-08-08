@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "0a962961-d1e5-46d0-aa0b-993783bf8a2e",
+    "name": "local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-08-03T04:47:46.457Z",
+    "modified": "2022-08-03T04:48:00.045Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "http://localhost:8000/api/v1"
+      }
+    ]
+  }
+]

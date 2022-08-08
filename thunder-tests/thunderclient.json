@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "e0491473-7586-4075-8d48-7d06aab3fc60",
+    "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
+    "containerId": "cae405d5-f915-47f6-8780-49859af8243f",
+    "name": "Test Result Detail",
+    "url": "{{url}}/tests-result/public?access_number=2230010094&first_name=KHANH",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-08-03T04:47:34.897Z",
+    "modified": "2022-08-03T04:47:34.897Z",
+    "headers": [
+      {
+        "name": "api-version",
+        "value": "v2"
+      }
+    ],
+    "params": [
+      {
+        "name": "access_number",
+        "value": "2230010094",
+        "isPath": false
+      },
+      {
+        "name": "first_name",
+        "value": "KHANH",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "e7c05266-5922-4436-8fd6-9bd5394f54ac",
+    "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
+    "containerId": "b238732a-e367-4982-9e6f-ba140605ccbe",
+    "name": "Patient Search",
+    "url": "{{url}}/integration/home-kits/patients/search?order_by=updated_at&order=DESC&date_of_birth=2022-02-15&full_name=GIANG TEST&phone_number=0349462426",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-08-08T04:37:31.522Z",
+    "modified": "2022-08-08T16:01:10.212Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "order_by",
+        "value": "updated_at",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "DESC",
+        "isPath": false
+      },
+      {
+        "name": "date_of_birth",
+        "value": "2022-02-15",
+        "isPath": false
+      },
+      {
+        "name": "full_name",
+        "value": "GIANG TEST",
+        "isPath": false
+      },
+      {
+        "name": "phone_number",
+        "value": "0349462426",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

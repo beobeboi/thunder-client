@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
+    "colName": "Diag API",
+    "created": "2022-08-03T04:47:34.893Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "cae405d5-f915-47f6-8780-49859af8243f",
+        "name": "Test Result",
+        "containerId": "",
+        "created": "2022-08-03T04:47:34.895Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "b238732a-e367-4982-9e6f-ba140605ccbe",
+        "name": "DTC API",
+        "containerId": "",
+        "created": "2022-08-08T04:37:18.491Z",
+        "sortNum": 30000
+      }
+    ]
+  }
+]
