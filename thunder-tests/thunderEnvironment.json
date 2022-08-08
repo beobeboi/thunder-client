@@ -12,5 +12,33 @@
         "value": "http://localhost:8000/api/v1"
       }
     ]
+  },
+  {
+    "_id": "81a8402e-bc19-4c39-8053-6dbdf07809fb",
+    "name": "staging",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-08-08T16:33:55.893Z",
+    "modified": "2022-08-08T16:34:26.289Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://api-bknd-staging.sapoche.vn/api/v1"
+      }
+    ]
+  },
+  {
+    "_id": "ecdd2871-8e5e-4ce8-94fd-e7ceba4bbd99",
+    "name": "production",
+    "default": false,
+    "sortNum": 30000,
+    "created": "2022-08-08T16:34:33.345Z",
+    "modified": "2022-08-08T16:34:53.986Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://api-bknd.sapoche.vn/api/v1"
+      }
+    ]
   }
 ]
