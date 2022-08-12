@@ -68,5 +68,24 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "f8498051-1d33-4235-91c2-46d094c9619d",
+    "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
+    "containerId": "b238732a-e367-4982-9e6f-ba140605ccbe",
+    "name": "Register KIT",
+    "url": "{{url}}/integration/home-kits/HK00000619STD/register",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-08-11T07:16:56.435Z",
+    "modified": "2022-08-11T07:32:53.995Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

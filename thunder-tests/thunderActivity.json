@@ -148,5 +148,57 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "cef5d09d-819a-4212-b4a1-f92cbbaf0455",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/patients/register",
+    "url": "{{url}}/integration/home-kits/patients/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-11T07:17:46.217Z",
+    "modified": "2022-08-11T07:17:46.637Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "90a5202f-aea6-46e9-bc66-867cfdf79a29",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/xxx/register",
+    "url": "{{url}}/integration/home-kits/xxx/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-11T07:18:09.549Z",
+    "modified": "2022-08-11T07:32:08.516Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2bdd04ad-cf72-406a-8d96-47ab4fbd8184",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/HK00000619STD/register",
+    "url": "{{url}}/integration/home-kits/HK00000619STD/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-11T07:32:52.724Z",
+    "modified": "2022-08-11T07:48:22.197Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
