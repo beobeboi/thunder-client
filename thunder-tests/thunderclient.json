@@ -74,16 +74,44 @@
     "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
     "containerId": "b238732a-e367-4982-9e6f-ba140605ccbe",
     "name": "Register KIT",
-    "url": "{{url}}/integration/home-kits/HK00000619STD/register",
+    "url": "{{url}}/integration/home-kits/HK00000671STD/register",
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-08-11T07:16:56.435Z",
-    "modified": "2022-08-11T07:32:53.995Z",
+    "modified": "2022-08-16T04:24:06.127Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
       "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4abb9a28-9321-448d-990a-e1dde11c6f62",
+    "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
+    "containerId": "31e60f6c-d05c-40e3-8e90-61ef0a6fc7e9",
+    "name": "External Booking",
+    "url": "{{url}}/external/appointments",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2022-08-17T03:23:29.847Z",
+    "modified": "2022-08-17T03:29:39.507Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer sk_test_VNKMf0f2e35c5e580363777ec4f0f4dfd59aebb94130"
+      },
+      {
+        "name": "X-Localization",
+        "value": "vi"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"supportingInformation\": {\n    \"appointmentSampleCollectionPlace\": \"Menas Mall - 60A Trường Sơn, Phường 2, Tân Bình, TPHCM\",\n    \"orderInformation\": {\n      \"orderItems\": [\n        {\n          \"testCode\": \"95424-8D-1\",\n          \"type\": \"group\"\n        }\n      ]\n    }\n  },\n  \"created\": \"2022-02-07T17:00:00+0000\",\n  \"participant\": {\n    \"actor\": {\n      \"resourceType\": \"Patient\",\n      \"identifier\": [\n        {\n          \"value\": \"001099014898\",\n          \"assigner\": \"CCCD\"\n        }\n      ],\n      \"name\": [\n        {\n          \"use\": \"official\",\n          \"text\": \"Le Van A\",\n          \"prefix\": [\"Mr.\"]\n        }\n      ],\n      \"telecom\": [\n        {\n          \"system\": \"phone\",\n          \"value\": \"+84919891103\"\n        },\n        {\n          \"system\": \"email\",\n          \"value\": \"levan.a@gmail.com\"\n        }\n      ],\n      \"gender\": \"male\",\n      \"birthDate\": \"1989-11-03\",\n      \"address\": [\n        {\n          \"use\": \"home\",\n          \"type\": \"physical\",\n          \"text\": \"29 Huynh Van Banh, Phuong 17, Quan Phu Nhuan, TP. HCM\",\n          \"city\": \"TP. HCM\"\n        }\n      ]\n    }\n  },\n  \"is_website_booking\": true\n}",
       "form": []
     },
     "tests": []
