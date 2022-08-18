@@ -200,5 +200,52 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "535f3b71-c0f6-4e4e-94d1-9452022bed73",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/HK00002010STD/register",
+    "url": "{{url}}/integration/home-kits/HK00002010STD/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-15T09:01:32.753Z",
+    "modified": "2022-08-15T10:34:08.054Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e2ca42a2-f8f0-42ef-8f07-9f50fdd2aab5",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/HK00002010STD/show",
+    "url": "{{url}}/integration/home-kits/HK00002010STD/show",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-18T08:07:25.888Z",
+    "modified": "2022-08-18T08:07:27.955Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "987060dc-1daa-40fa-b42a-02bafc2c3121",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/HK00002010STD",
+    "url": "{{url}}/integration/home-kits/HK00002010STD",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-18T08:09:50.212Z",
+    "modified": "2022-08-18T08:09:52.395Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
