@@ -5,11 +5,15 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-08-03T04:47:46.457Z",
-    "modified": "2022-08-03T04:48:00.045Z",
+    "modified": "2022-08-18T16:50:58.574Z",
     "data": [
       {
         "name": "url",
         "value": "http://localhost:8000/api/v1"
+      },
+      {
+        "name": "url_external",
+        "value": "http://localhost:8000"
       }
     ]
   },

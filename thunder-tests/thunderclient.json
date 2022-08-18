@@ -93,11 +93,11 @@
     "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
     "containerId": "31e60f6c-d05c-40e3-8e90-61ef0a6fc7e9",
     "name": "External Booking",
-    "url": "{{url}}/external/appointments",
+    "url": "{{url_external}}/external/appointments",
     "method": "POST",
     "sortNum": 70000,
     "created": "2022-08-17T03:23:29.847Z",
-    "modified": "2022-08-17T03:29:39.507Z",
+    "modified": "2022-08-18T16:51:02.395Z",
     "headers": [
       {
         "name": "Authorization",
