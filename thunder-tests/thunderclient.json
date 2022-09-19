@@ -4,11 +4,11 @@
     "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
     "containerId": "cae405d5-f915-47f6-8780-49859af8243f",
     "name": "Test Result Detail",
-    "url": "{{url}}/tests-result/public?access_number=2230010094&first_name=KHANH",
+    "url": "{{url}}/tests-result/public?access_number=2270000428HPV13&first_name=TEST",
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-08-03T04:47:34.897Z",
-    "modified": "2022-08-03T04:47:34.897Z",
+    "modified": "2022-09-15T02:01:40.312Z",
     "headers": [
       {
         "name": "api-version",
@@ -18,12 +18,12 @@
     "params": [
       {
         "name": "access_number",
-        "value": "2230010094",
+        "value": "2270000428HPV13",
         "isPath": false
       },
       {
         "name": "first_name",
-        "value": "KHANH",
+        "value": "TEST",
         "isPath": false
       }
     ],
@@ -74,16 +74,16 @@
     "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
     "containerId": "b238732a-e367-4982-9e6f-ba140605ccbe",
     "name": "Register KIT",
-    "url": "{{url}}/integration/home-kits/HK00000671STD/register",
+    "url": "{{url}}/integration/home-kits/HK00001409HPV/register",
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-08-11T07:16:56.435Z",
-    "modified": "2022-08-16T04:24:06.127Z",
+    "modified": "2022-08-29T07:16:21.308Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+84938 38 79 20\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
       "form": []
     },
     "tests": []
@@ -128,6 +128,30 @@
     "modified": "2022-08-18T08:09:52.392Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3533f290-8e84-4829-ae31-59faec47bd97",
+    "colId": "c8c099f8-c3b6-4c42-9cb9-a01ded54a533",
+    "containerId": "cae405d5-f915-47f6-8780-49859af8243f",
+    "name": "Verify Test Result",
+    "url": "{{url}}/tests-result/verify",
+    "method": "POST",
+    "sortNum": 80000,
+    "created": "2022-09-19T06:21:10.764Z",
+    "modified": "2022-09-19T06:38:27.263Z",
+    "headers": [
+      {
+        "name": "api-version",
+        "value": "v2"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"access_number\": \"2270000430\",\n  \"first_name\": \"GIANG\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]

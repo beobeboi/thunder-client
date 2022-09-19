@@ -202,6 +202,25 @@
     "tests": []
   },
   {
+    "_id": "535f3b71-c0f6-4e4e-94d1-9452022bed73",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/HK00002010STD/register",
+    "url": "{{url}}/integration/home-kits/HK00002010STD/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-15T09:01:32.753Z",
+    "modified": "2022-08-15T10:34:08.054Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
     "_id": "d66c21da-6ccd-4a8f-989a-5e8e32d7f87b",
     "colId": "history",
     "containerId": "",
@@ -225,16 +244,21 @@
     "colId": "history",
     "containerId": "",
     "name": "{{url}}/integration/home-kits/HK00000671STD/register",
-    "url": "{{url}}/integration/home-kits/HK00000671STD/register",
+    "url": "https://api-bknd-staging.sapoche.vn/api/v1/integration/home-kits/MV4UUMDFLBAWST3JJJFVMMKRNFGEGSTIMJDWG2KPNFFESVL2JEYU42KKHEXGK6KKOJQVQUTGMFLVC2KPNFFESU32IF3U2RCBPBGWUSLYKNDEEV2JNYYC4LLMKQ2VUU27JEWWSLKYKVKDGN3BMZJHIM3QMNCGWSCYNNQXK4DIJRPWQ4BTMNWVA3DEO4======/register",
     "method": "POST",
     "sortNum": 0,
     "created": "2022-08-16T04:24:01.542Z",
-    "modified": "2022-08-16T04:24:06.128Z",
-    "headers": [],
+    "modified": "2022-08-23T10:10:46.366Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmdWxsX25hbWUiOiJIdXkgVGVzdCIsImRhdGVfb2ZfYmlydGgiOiIyMDIyLTA4LTA0IiwicGhvbmVfbnVtYmVyIjoiKzg0OTY4MDc1MTYyIiwiZXhwaXJlX2F0IjoxNjYxMjUxMDAyfQ.V5t2yTbTxjiuyXLH5EymzGLX4r8wgWFlu5s_BJyDySc"
+      }
+    ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "raw": "{\n  \"full_name\": \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
       "form": []
     },
     "tests": []
@@ -296,25 +320,6 @@
     "tests": []
   },
   {
-    "_id": "535f3b71-c0f6-4e4e-94d1-9452022bed73",
-    "colId": "history",
-    "containerId": "",
-    "name": "{{url}}/integration/home-kits/HK00002010STD/register",
-    "url": "{{url}}/integration/home-kits/HK00002010STD/register",
-    "method": "POST",
-    "sortNum": 0,
-    "created": "2022-08-15T09:01:32.753Z",
-    "modified": "2022-08-15T10:34:08.054Z",
-    "headers": [],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
     "_id": "e2ca42a2-f8f0-42ef-8f07-9f50fdd2aab5",
     "colId": "history",
     "containerId": "",
@@ -333,12 +338,142 @@
     "colId": "history",
     "containerId": "",
     "name": "{{url}}/integration/home-kits/HK00002010STD",
-    "url": "{{url}}/integration/home-kits/HK00002010STD",
-    "method": "GET",
+    "url": "{{url}}/integration/home-kits/DH00060135/register",
+    "method": "POST",
     "sortNum": 0,
     "created": "2022-08-18T08:09:50.212Z",
-    "modified": "2022-08-18T08:09:52.395Z",
+    "modified": "2022-08-23T04:50:26.079Z",
     "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "62981785-068a-481e-9519-148ef19c7952",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://imp.diag.vn/test-results/2210023738/",
+    "url": "https://imp.diag.vn/test-results/2210023738/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-23T06:51:55.326Z",
+    "modified": "2022-08-23T06:51:55.571Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "deaabded-4d28-4f56-aefc-dc7159403fc0",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://imp.diag.vn/test-results/2210023738",
+    "url": "https://imp.diag.vn/test-results/2210023738",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-23T06:51:58.799Z",
+    "modified": "2022-08-23T06:51:59.140Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+840349462426\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "19838517-4d20-4f5b-ae74-be5b2dbe44b5",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/tests-result/public?access_number=2220013415&first_name=KHANH",
+    "url": "{{url}}/tests-result/public?access_number=2220013415&first_name=KHANH",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-23T07:59:31.337Z",
+    "modified": "2022-08-23T08:15:15.688Z",
+    "headers": [
+      {
+        "name": "api-version",
+        "value": "v2"
+      }
+    ],
+    "params": [
+      {
+        "name": "access_number",
+        "value": "2220013415",
+        "isPath": false
+      },
+      {
+        "name": "first_name",
+        "value": "KHANH",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "1639caf3-46ec-44fa-a133-1824a2b3a9eb",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/integration/home-kits/HK00001409HPV/register",
+    "url": "{{url}}/integration/home-kits/HK00001409HPV/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-29T07:15:48.769Z",
+    "modified": "2022-08-29T07:16:21.310Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"full_name\" : \"Nguyen Giang\",\n  \"date_of_birth\": \"1991-05-09\",\n  \"phone_number\": \"+84938 38 79 20\",\n  \"sex_id\": 1,\n  \"address\": \"Test\",\n  \"city\": \"Test\",\n  \"sample_collected_time\": \"2017-05-11T00:00:00+07:00\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ad5e46d1-6fec-4119-9131-113be9fbb36a",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/tests-result/public?access_number=2220304231&first_name=TEST",
+    "url": "{{url}}/tests-result/verify",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-08-30T08:08:39.695Z",
+    "modified": "2022-09-19T06:38:27.265Z",
+    "headers": [
+      {
+        "name": "api-version",
+        "value": "v2"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"access_number\": \"2270000430\",\n  \"first_name\": \"GIANG\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "19547998-fc01-44d5-9761-90bebf6834dd",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/tests-result/public?access_number=2270000428HPV13&first_name=TEST",
+    "url": "https://api-bknd-staging.sapoche.vn/api/v1/integration/utility/get-test-pe-json-file",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-15T02:01:34.696Z",
+    "modified": "2022-09-19T05:43:17.044Z",
+    "headers": [
+      {
+        "name": "api-version",
+        "value": "v2"
+      }
+    ],
     "params": [],
     "tests": []
   }
